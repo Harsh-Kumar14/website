@@ -35,7 +35,7 @@ export default function DarkModeToggle() {
   const [activeThemeIcon, setActiveThemeIcon] = useState(
     '/icons/theme-switch.svg',
   );
-
+// changed
   useEffect(() => {
     switch (theme) {
       case 'system':
